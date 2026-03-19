@@ -1,1 +1,254 @@
-<h1>Hello, Xiaolu</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xiaolu Liu</title>
+  <meta name="description" content="Personal academic homepage of Xiaolu Liu.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Xiaolu Liu (刘晓璐)</h1>
+        <p>
+          I am currently a fourth-year Ph.D. student at the
+          <a href="http://www.cs.zju.edu.cn/" target="_blank" rel="noopener noreferrer">College of Computer Science and Technology, Zhejiang University</a>,
+          advised by Prof.
+          <a href="https://person.zju.edu.cn/jkzhu" target="_blank" rel="noopener noreferrer">Jianke Zhu</a>.
+          Prior to this, I received my B.Eng. in Electronics and Computer Engineering from Zhejiang University through the
+          <a href="https://zjui.intl.zju.edu.cn" target="_blank" rel="noopener noreferrer">ZJU-UIUC Joint Program (ZJUI)</a>.
+          I am also a visiting Ph.D. student at the
+          <a href="https://www.comp.nus.edu.sg/" target="_blank" rel="noopener noreferrer">School of Computing (SoC), NUS</a>,
+          advised by Prof.
+          <a href="https://www.comp.nus.edu.sg/~ayao/" target="_blank" rel="noopener noreferrer">Angela Yao</a>.
+        </p>
+        <p>
+          My research interests lie in <strong>World Model</strong>, <strong>Autonomous Driving</strong>, and <strong>3D Generation</strong>.
+          Various forms of academic collaboration and discussion are welcome. Feel free to reach out!
+        </p>
+        <p class="links">
+          <a href="mailto:xiaoluliu@zju.edu.cn">Email</a>
+          <span>/</span>
+          <a href="https://scholar.google.com/citations?user=2ihtou4AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <span>/</span>
+          <a href="https://github.com/xiaolul2" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span>/</span>
+          <a href="https://xiaolul2.github.io/" target="_blank" rel="noopener noreferrer">CV</a>
+        </p>
+      </div>
+      <div class="hero-photo">
+        <img class="profile-img" src="figs/lxl.jpg" alt="Xiaolu Liu">
+      </div>
+    </header>
+
+
+    <section>
+      <h2>News</h2>
+      <ul>
+        <li><strong>[2026.03]</strong> We released the Preprint of <a href="#dynflowdrive">DynFlowDrive</a>, a dynamic latent world modeling framework for autonomous driving.</li>
+        <li><strong>[2026.01]</strong> <a href="https://arxiv.org/pdf/2601.14103">Interp3D</a> was accepted to ICLR 2026, which focuses on correspondence-aware interpolation for generative texture 3D morphing.</li>
+        <li><strong>[2025.06]</strong> <a href="https://arxiv.org/pdf/2503.23109">UIGenMap</a> was accepted to CVPR 2025, designed for Vectorized HD Map Construction.</li>
+        <li><strong>[2025.05]</strong> Received CSC National Scholarship for overseas study.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Preprints & Publications </h2>
+      <ul class="pub-list">
+        <li id="dynflowdrive">
+          <div class="pub-row">
+            <img class="pub-img" src="figs/dynflowdrive.png" alt="DynFlowDrive figure">
+            <div class="pub-content">
+              <span class="pub-title">[arXiv preprint] DynFlowDrive: Flow-Based Dynamic World Modeling for Autonomous Driving</span>
+              <span class="pub-links">
+                <a href="#" target="_blank" rel="noopener noreferrer">Paper</a> /
+                <a href="#" target="_blank" rel="noopener noreferrer">Code</a>
+              </span>
+              <span class="pub-authors"><strong>Xiaolu Liu</strong>, Yicong Li, Song Wang, Junbo Chen, Angela Yao, Jianke Zhu.</span>
+            </div>
+          </div>
+        </li>
+      
+        <li>
+          <div class="pub-row">
+            <img class="pub-img" src="figs/relaxflow.png" alt="RelaxFlow figure">
+            <div class="pub-content">
+              <span class="pub-title">[arXiv preprint] RelaxFlow: Text-Driven Amodal 3D Generation</span>
+              <span class="pub-links">
+                <a href="https://arxiv.org/abs/2603.05425" target="_blank" rel="noopener noreferrer">Paper</a> /
+                <a href="https://github.com/viridityzhu/RelaxFlow" target="_blank" rel="noopener noreferrer">Code</a>
+              </span>
+              <span class="pub-authors">Jiayin Zhu, Guoji Fu, <strong>Xiaolu Liu</strong>, Qiyuan He, Yicong Li, Angela Yao.</span>
+            </div>
+          </div>
+        </li>
+        <li id="interp3d">
+          <div class="pub-row">
+            <img class="pub-img" src="figs/interp3d.png" alt="Interp3D figure">
+            <div class="pub-content">
+              <span class="pub-title">[ICLR 2026] Interp3D: Correspondence-aware Interpolation for Generative Texture 3D Morphing</span>
+              <span class="pub-links">
+                <a href="https://arxiv.org/pdf/2601.14103" target="_blank" rel="noopener noreferrer">Paper</a> /
+                <a href="https://github.com/xiaolul2/Interp3D" target="_blank" rel="noopener noreferrer">Code</a>
+              </span>
+              <span class="pub-authors"><strong>Xiaolu Liu</strong>, Yicong Li, Qiyuan He, Jiayin Zhu, Wei Ji, Angela Yao, Jianke Zhu.</span>
+            </div>
+          </div>
+        </li>
+        <li id="uigenmap">
+          <div class="pub-row">
+            <img class="pub-img" src="figs/uigenmap.png" alt="UIGenMap figure">
+            <div class="pub-content">
+              <span class="pub-title">[CVPR 2025] Uncertainty-Instructed Structure Injection for Generalizable HD Map Construction</span>
+              <span class="pub-links">
+                <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Uncertainty-Instructed_Structure_Injection_for_Generalizable_HD_Map_Construction_CVPR_2025_paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a> /
+                <a href="https://github.com/xiaolul2/UIGenMap" target="_blank" rel="noopener noreferrer">Code</a>
+              </span>
+              <span class="pub-authors"><strong>Xiaolu Liu</strong>, Ruizi Yang, Song Wang, Wentong Li, Junbo Chen, Jianke Zhu.</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-row">
+            <img class="pub-img" src="figs/mgmap.png" alt="MGMap figure">
+            <div class="pub-content">
+              <span class="pub-title">[CVPR 2024] MGMap: Mask-guided Learning for Online Vectorized HD Map Construction</span>
+              <span class="pub-links">
+                <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_MGMap_Mask-Guided_Learning_for_Online_Vectorized_HD_Map_Construction_CVPR_2024_paper.pdf" target="_blank" rel="noopener noreferrer">Paper</a> /
+                <a href="https://github.com/xiaolul2/MGMap" target="_blank" rel="noopener noreferrer">Code</a>
+              </span>
+              <span class="pub-authors"><strong>Xiaolu Liu</strong>, Song Wang, Wentong Li, Junbo Chen, Jianke Zhu.</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-row">
+            <img class="pub-img" src="figs/pointlora.png" alt="PointLoRA figure">
+            <div class="pub-content">
+              <span class="pub-title">[CVPR 2025] PointLoRA: Low-Rank Adaptation with Token Selection for Point Cloud Learning</span>
+              <span class="pub-links">
+                <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Wang_PointLoRA_Low-Rank_Adaptation_with_Token_Selection_for_Point_Cloud_Learning_CVPR_2025_paper.html" target="_blank" rel="noopener noreferrer">Paper</a> /
+                <a href="https://github.com/songw-zju/PointLoRA" target="_blank" rel="noopener noreferrer">Code</a>
+              </span>
+              <span class="pub-authors">Song Wang, <strong>Xiaolu Liu</strong>, Lingdong Kong, ... Jianke Zhu, Xinchao Wang.</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-row">
+            <img class="pub-img" src="figs/mambamap.png" alt="MambaMap figure">
+            <div class="pub-content">
+              <span class="pub-title">[IROS 2025] MambaMap: Online Vectorized HD Map Construction using State Space Model</span>
+              <span class="pub-links">
+                <a href="https://arxiv.org/abs/2507.20224" target="_blank" rel="noopener noreferrer">Paper</a> /
+                <a href="https://github.com/ZiziAmy/MambaMap" target="_blank" rel="noopener noreferrer">Code</a>
+              </span>
+              <span class="pub-authors">Ruizi Yang, <strong>Xiaolu Liu</strong>, Jianke Zhu.</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-row">
+            <img class="pub-img" src="figs/notall.png" alt="Not All Voxels figure">
+            <div class="pub-content">
+              <span class="pub-title">[CVPR 2024] Not All Voxels Are Equal: Hardness-Aware Semantic Scene Completion with Self-Distillation</span>
+              <span class="pub-links">
+                <a href="https://arxiv.org/abs/2404.11958" target="_blank" rel="noopener noreferrer">Paper</a> /
+                <a href="https://github.com/songw-zju/HASSC" target="_blank" rel="noopener noreferrer">Code</a>
+              </span>
+              <span class="pub-authors">Song Wang, Jiawei Yu, Wentong Li, Wenyu Liu, <strong>Xiaolu Liu</strong>, Junbo Chen, Jianke Zhu.</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-row">
+            <img class="pub-img" src="figs/lidar2map.png" alt="Lidar2map figure">
+            <div class="pub-content">
+              <span class="pub-title">[CVPR 2023] Lidar2map: In defense of lidar-based semantic map construction using online camera distillation</span>
+              <span class="pub-links">
+                <a href="https://arxiv.org/abs/2304.11379" target="_blank" rel="noopener noreferrer">Paper</a> /
+                <a href="https://github.com/songw-zju/LiDAR2Map" target="_blank" rel="noopener noreferrer">Code</a>
+              </span>
+              <span class="pub-authors">Song Wang, Wentong Li, Wenyu Liu, <strong>Xiaolu Liu</strong>, Jianke Zhu.</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Internship</h2>
+      <ul>
+        <li>
+          <div class="item">
+            <div class="item-title"><a href="https://udeer.ai" target="_blank" rel="noopener noreferrer">Udeer.AI</a></div>
+            <div class="item-meta">Research Intern | 2025.07 - 2026.04 | Remote</div>
+            <div class="item-desc">
+              Focus on end-to-end autonomous driving and world models.
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul class="edu-list">
+        <li>
+          <div class="edu-main">Ph.D. @ Zhejiang University, 2022-2027 (expected)</div>
+          <div class="edu-sub">
+            Advisor:
+            <a href="https://person.zju.edu.cn/jkzhu" target="_blank" rel="noopener noreferrer">Prof. Jianke Zhu</a>
+          </div>
+        </li>
+        <li>
+          <div class="edu-main">B.Eng. @ Zhejiang University, 2018-2022</div>
+          <div class="edu-sub">ZJU-UIUC Joint Program (ZJUI) | GPA: 3.87/4.0 | Rank: 6/51</div>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Honors and Awards</h2>
+      <ul>
+        <li>CSC National Scholarship for Overseas Study (2025)</li>
+        <li>Outstanding Graduate Student, Zhejiang University (2023 - 2025)</li>
+        <li>Five-Good Graduate Student, Zhejiang University (2023 - 2025)</li>
+        <li>Outstanding Graduate, Zhejiang University (Top 5%) (2022)</li>
+        <li>High Honor Graduate &amp; Dean's List, UIUC (2019 - 2022)</li>
+        <li>Second-Class Scholarship, Zhejiang University (2021)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Academic Services</h2>
+      <ul>
+        <li><strong>Journal Reviewer:</strong> T-ITS, T-CSVT, T-IV</li>
+        <li><strong>Conference Reviewer:</strong> ICML 2026, CVPR 2024/2025, ICCV 2025, IJCAI 2025, NeurIPS 2025, IROS 2025</li>
+        <li><strong>Teaching Assistant:</strong> FDS23/FDS25, ECE374, Math213</li>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="visitor-map">
+        <div class="visitor-map-scale">
+          <script
+            type="text/javascript"
+            id="mapmyvisitors"
+            src="//mapmyvisitors.com/map.js?d=6rLIJJf62quhiJeuyyqj0diIyTN--OdHga--HOph2fk&cl=ffffff&w=a">
+          </script>
+          <noscript>
+            <a href="https://mapmyvisitors.com/web/1c3ab" title="Visit tracker" target="_blank" rel="noopener noreferrer">
+              <img src="https://mapmyvisitors.com/map.png?d=6rLIJJf62quhiJeuyyqj0diIyTN--OdHga--HOph2fk&cl=ffffff" alt="Visitor map">
+            </a>
+          </noscript>
+        </div>
+      </div>
+      <p>&copy; Xiaolu Liu | Last updated: March 2026</p>
+    </footer>
+  </div>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</body>
+</html>
