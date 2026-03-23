@@ -20,14 +20,15 @@ body {
 }
 
 .container {
-  width: min(1080px, 94vw);
+  width: min(1180px, 94vw);
   margin: 0 auto;
   padding: 36px 0 56px;
 }
 
 .hero {
   display: grid;
-  grid-template-columns: 1fr minmax(260px, 38%);
+  /* 左侧文字更宽：右侧只保留头像所需宽度 */
+  grid-template-columns: 1fr minmax(200px, 26%);
   gap: 28px;
   align-items: start;
   border-bottom: 1px solid var(--line);
@@ -54,7 +55,7 @@ body {
 
 .profile-slot {
   width: 100%;
-  max-width: 320px;
+  max-width: 280px;
   aspect-ratio: 16 / 10;
   height: auto;
   border-radius: 8px;
@@ -62,7 +63,7 @@ body {
 
 .profile-img {
   width: 100%;
-  max-width: 380px;
+  max-width: 280px;
   aspect-ratio: 16 / 10;
   height: auto;
   border-radius: 8px;
@@ -316,11 +317,11 @@ footer {
   }
 
   .profile-slot {
-    max-width: 260px;
+    max-width: 220px;
   }
 
   .profile-img {
-    max-width: 300px;
+    max-width: 220px;
   }
 
   .pub-row,
