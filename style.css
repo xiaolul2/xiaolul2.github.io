@@ -269,13 +269,17 @@ footer {
   margin: 0 0 8px;
 }
 
+/* Globe widget needs a bit more vertical space than the flat map */
 .visitor-map {
   margin: 6px 0 10px;
-  width: 330px;
-  height: 180px;
+  width: 220px;
+  height: 150px;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .visitor-map-title {
@@ -288,9 +292,12 @@ footer {
 }
 
 .visitor-map-scale {
-  transform: scale(0.80);
-  transform-origin: top left;
-  width: 440px;
+  transform: scale(0.52);
+  transform-origin: center center;
+  width: 100%;
+  max-width: 260px;
+  display: flex;
+  justify-content: center;
 }
 
 .visitor-map-scale iframe,
